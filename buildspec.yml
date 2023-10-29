@@ -6,7 +6,7 @@ phases:
     commands:
       - npm install -g @angular/cli@latest
     finally:
-      - ng build
+      - npm install
     # steps:
   build:
     on-failure: ABORT
