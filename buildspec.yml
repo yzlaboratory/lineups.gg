@@ -1,0 +1,14 @@
+version: 0.1
+
+phases:
+  install:
+    on-failure: ABORT
+    commands:
+      - npm install @angular/cli
+    finally:
+      - ng build
+    # steps:
+  build:
+    on-failure: ABORT
+    commands:
+      - ng build
