@@ -14,5 +14,5 @@ phases:
       - ng build
 artifacts:
   files:
-    - dist/lineups.gg/browser/*
+    - dist/lineups_gg/*
   discard-paths: yes
