@@ -53,10 +53,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "lineups.gg:build:production"
+              "buildTarget": "lineups.gg:build:production"
             },
             "development": {
-              "browserTarget": "lineups.gg:build:development"
+              "buildTarget": "lineups.gg:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -64,7 +64,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "lineups.gg:build"
+            "buildTarget": "lineups.gg:build"
           }
         },
         "test": {
