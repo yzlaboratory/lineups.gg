@@ -15,4 +15,5 @@ phases:
 artifacts:
   files:
     - dist/lineups_gg/*
+    - dist/lineups_gg/browser/*
   discard-paths: yes
